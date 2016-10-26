@@ -1,0 +1,114 @@
+/*	naquech
+	Stylesheet for TOP/HTML_CSS/index.html */
+
+/* Header */
+
+.header{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	float: right;
+	text-align: center;
+}
+
+li{
+	display: block;
+	float: left;
+	padding: 10px 10px 10px 10px; 
+}
+
+a{
+	text-decoration: none;			/* Removes underline from links in header and footer*/
+	color: #757575;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+button{
+	border: 6px solid #6198f3;
+	color:white;
+	font-size: 13px;
+	font-weight: bold;
+	outline: none;
+	background-color:#6198f3;
+	border-radius: 4px;
+}
+
+/* Logo */
+
+.logo{
+padding-top: 200px;
+text-align: center;
+}
+
+form{
+	width: 600px;
+	padding-top: 30px;
+	margin: auto;
+}
+
+
+/* search bar */
+
+input[type=text]{
+	padding: 10px;
+	width: 100%;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	font: arial,sans-serif;
+	background-image: url(../images/voiceicon.png);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: right; 
+}
+
+/* Google Search and Lucky buttons */
+input[type=submit]{
+	margin: 20px 4px;
+	border: none;
+	padding:16px;
+	border-radius: 2px;
+	color: #757575;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	background-color: #f2f2f2;
+}
+
+.search{
+	text-align: center;		/* Use this two properties to center a div */
+	margin: auto 0;			/* Vertical | horizontal -- centering of blocks */
+}
+
+/* Footer */
+
+.footer{
+	background-color: #f2f2f2;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	border-top: 1px solid #ccc;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 10px 10px 20px 10px;
+}
+
+#footLeft{
+	display: block;
+	padding-left: 27px;
+	margin: 0;
+	white-space: nowrap;
+	float: left;
+	word-spacing: 15px;
+}
+
+#footRight{
+	display: block;
+	padding-right: 27px;
+	margin: 0;
+	white-space: nowrap;
+	float: right;
+	word-spacing: 15px;
+}
