@@ -1,0 +1,157 @@
+<!-- naquech
+	HTML and CSS Project
+	Dificult version: build the google search results page -->
+
+<!DOCTYPE! html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title> google - Google Search </title>
+		<link rel="stylesheet" href="styles/googlesearch.css">
+	</head>
+
+
+	<body>
+
+		<form>
+			<span id="topleft">
+				<a href="#google"> <img style="float:left" src="images/google.png" width="100px" height="35px"> </a>
+				<input type="text" name="google search" placeholder="google"> 
+			</span>
+			<span id="topright">
+				<a href="#apps"><img src="images/ChromeAppLauncher.png" width="16px" height="16px"></a>
+				<a href="#signin"> <button type="button">Sign In</button></a>
+			</span>
+		</form>
+
+
+		<div id="list"> 
+			<ul>
+			<li><a href="#all">All</a></li>
+			<li><a href="#news">News</a></li>
+			<li><a href="#apps">Apps</a></li>
+			<li><a href="#Videos">Videos</a></li>
+			<li><a href="#images">Images</a></li>
+			<li><div class="dropdown">
+				<span style="font-family: arial, sans-serif; color:#757575">More &#9662</span>
+				<div class="dropdown-content">
+      				<p><a href="#">Maps</a><br>
+      				<a href="#">Shopping</a><br>
+      				<a href="#">Books</a><br>
+      				<a href="#">Flights</a></p>
+    			</div></div>
+  			</li>
+			<li><a href="#searchtools">Search Tools</a></li>
+			<li style="float:right"><a href="#settings"><button type="button"><img src="images/settings.jpg" width="15px" height="15px"></a>
+			</ul>
+		</div>
+
+
+		<div id="results"><br>
+			About 10,600,000,000 results (0.71 seconds)
+		</div>
+
+		
+		<div id="left-content" style="float:left; width:40%; margin-left:130px">
+
+			<div id="info" style="display: block; border-bottom: 1px solid #ccc">
+				<p><a href="#">Google</a><br><span style="color:#003310">https://www.google.com/</span><br>
+				Search the worl'ds information, including webpages, images, videos, and more. Google has many special features to help you find exactly
+				what you are looking...</p>
+				<div id="google-info" style="margin-left: 30px">
+					<div>
+						<div style="float:left; width:50%">
+							<p><a href="#">Google Docs</a><br>With Google Docs, you can write, edit, and collaborate wherever ...</p>
+							<p><a href="#">Google News</a><br>Comprehensive up-to-date news coverage, aggregated from ...</p>
+							<p><a href="#">Google Accounts</a><br>Sign in with your Google Account One Google Account for ...</p>
+						</div>
+						<div style="float:right; width:50%">
+							<p><a href="#">Made by Google</a><br>Phone by Google. It has the highest rated smarthphone ...</p>
+							<p><a href="#">Google Sheets</a><br>... an internet connection. Use Sheets to edit Excel files. Free...</p>
+							<p><a href="#">Google Images</a><br>Google Images. The most comprehensive image sarch ...</p>
+						</div>
+					</div>
+						<p><a href="#"><span style="font-size:12">More results from google.com >></a></p>
+				</div>
+			</div>
+
+			<div id="in-the-news" style="display: block; border-bottom: 1px solid #ccc">
+				<p><h3>In the news</h3></p>
+				<p><a href="#">Google Daydream review: mobile VR done mostly right</a><br><span style="color:#003310">The verge</span> - 3 hours ago<br>For the last week, I've been trying a new product built on much the same premise: Google's ...</p>
+				<p><a href="#">23 min ago Google in Europe Android: Choice at every turn Smartphones are now available at</a><br><span style="color:#003310">Google</span> - 3 hours ago</p>
+				<p><a href="#">WIRED Review: Google Daydream View VR Headset</a><br><span style="color:#003310">WIRED</span> - 2 hours ago</p>
+				<p><a href="#">More News for google</a></p>
+			</div>
+
+			<div id="results-info" style="display: block; border-bottom: 1px solid #ccc">
+				<p><a href="#">Google | Facebook</a><br><span style="color:#003310">https://www.facebook.com/Google/</span><br>Organizing the world's information and making it universally accessible and useful. ...Available today, your own Google, ready to help.</p>
+				<p><a href="#">Google | YouTube</a><br><span style="color:#003310">https://www.youtube.com/user/Google</span><br>Experience the worls of Google on our oficial YouTube channel. Watch videos about our products, technology, company happenings and more. Subscribe to ...</p>
+				<p><a href="#">Google on the Forbes World's Most Valuable Brands List</a><br><span style="color:#003310">www.forbes.com/Companies/Google/</span><br>Google, Inc. focuses on improving the ways people connect with information. It provides variety od services and tools for advertisers of all sizes, from simple text ...</p>
+				<p><a href="#">What Google Learned From Its Quest to Build the Perfect Team</a><br><span style="color:#003310">www.nytimes.com/.../what-Google-learned-from-its-quest-to-build-the-perfect-team.html/</span><br>Five years ago, Google - One of the most public proselytizers of how studying workers can transform productivity - became confused on ...</p>
+				<p><a href="#">Google.org</a><br><span style="color:#003310">https://www.google.org/</span><br>We invest in teams with bold ideas that create lasting impact on some of the world's biggest challenges.</p>
+			</div>
+
+
+			<!-- Tried doing in with divs, did not work, retry later... -->
+			<div id="related-searches" style="display: block; border-bottom: 1px solid #ccc">	
+				<h3>Searches related to google</h3>
+				<table>
+					<tr><td><a href="#"><span style="font-size:14">google play</span></td></a><td><a href="#"><span style="font-size:14">google mail</span></td></a></tr>
+					<tr><td><a href="#"><span style="font-size:14">google account</span></td></a><td><a href="#"><span style="font-size:14">google search</span></td></a></tr>
+					<tr><td><a href="#"><span style="font-size:14">google earth</span></td></a><td><a href="#"><span style="font-size:14">google gravity</span></td></a></tr>
+					<tr><td><a href="#"><span style="font-size:14">google sign in</span></td></a><td><a href="#"><span style="font-size:14">how to change language in google chrome</span></td></a></tr>
+				</table>
+			</div>
+
+
+			<!-- Google does this by inserting images, color are from: https://design.google.com/articles/evolving-the-google-identity/, 
+				font is old style... -->
+			<div id="table-results" style="display: block">
+				<table align="center">
+					<tr style="font-size:26">
+						<th style="color:#4285F4">G</th><th style="color:#EA4335">o</th><th style="color:#FBBC05">o</th><th style="color:#FBBC05">o</th><th style="color:#FBBC05">o</th><th style="color:#FBBC05">o</th><th style="color:#4285F4">g</th><th style="color:#34A853">l</th><th style="color:#EA4335">e</th><th></th><th></th><th style="color:#4285F4; font-size:14">></th>
+					</tr>
+					<tr>
+						<th></th><th><a href="#"><span style="color:#4285F4; font-size:12">1</span></a></th><th><a href="#"><span style="color:#4285F4; font-size:12">2</span></a></th><th><a href="#"><span style="color:#4285F4; font-size:12">3</span></a></th><th><a href="#"><span style="color:#4285F4; font-size:12">4</span></a></th><th><a href="#"><span style="color:#4285F4; font-size:12">5</span></a></th><th></th><th></th><th></th><th></th><th></th><th><a href="#"><span style="color:#4285F4; font-size:12">Next</span></a></th>
+					</tr>
+				</table>
+			</div>
+
+		</div> <!-- id=left content -->
+
+
+
+		 
+		<div id="right-content" style="float:left"> <!-- right box content -->
+			<div id="company" style="display: block; border-bottom: 1px solid #ccc">
+				<p><span style="font-size:24">Google</span><br><span style="color:757575">Tecnology company</p>
+			</div>
+			<div id="compinfo" style="display: block">
+				<p>Google is an american multinational technology company specializing in Internet-related services and products that include online
+					advertising technologies, search, cloud computing, software, and hardware. Wikipedia</p>
+				<p><span style="font-weight:bold">Founded:</span> September 4, 1998, Menlo Park, CA</p>
+				<p><span style="font-weight:bold">Headquarters:</span> Mountain View, CA</p>
+				<p><span style="font-weight:bold">CEO:</span> Sundar Pichai (Oct 2, 2015-)</p>
+				<p><span style="font-weight:bold">Subsidiaries:</span> YouTube, Nik Software, AdMob, ITA Software, More</p>
+				<p><span style="font-weight:bold">Video games:</span> Tilt Brush, Google Lively, Magic Cat Academy</p>
+				<p><span style="font-weight:bold">Founders:</span> Larry Page, Sergey Brin 
+			</div>
+
+		</div> <!-- id="right-content" -->
+
+		<div id="footer">
+			<div id="footcont">
+				<p><span style="color:#b3b3b3">&#8226 Seattle, WA - From your internet address - </span> Use precise location - Learn more</p>
+				<table style="text-align:left">
+					<tr><th><a href="#"><span style="color:#757575; font-size:12">Help</span></a></th><th></th><th></th><th><a href="#"><span style="color:#757575; font-size:12">Send Feedback</span></a></th><th></th><th></th><th><a href="#"><span style="color:#757575; font-size:12">Privacy</span></a></th><th></th><th></th><th><a href="#"><span style="color:#757575; font-size:12">Terms</span></a></th>
+				</table>
+			</div>
+		</div>
+	
+
+	</body>
+
+
+</html>

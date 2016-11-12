@@ -1,0 +1,160 @@
+/* 	naquech
+	stylesheet for google_search.html */
+
+form{
+	background-color: #f2f2f2;
+	padding: 5px 0px 5px 10px;
+	border-bottom: 1px solid #ccc;
+	color: #000000;
+}
+
+form input{
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+	margin-left: 15px;
+	width: 60%;
+	background-image: url(../images/searchicon.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 38px 38px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+#topright{					/* google apps icon*/
+	padding-right: 27px;
+	float: right;
+	text-align: center;
+	word-spacing: 15px;
+}
+
+#topright button{				/* sign in icon*/
+	background-color: #4285f4;
+	padding: 8px 10px 8px 10px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+	margin-top: 7px;
+}
+
+/* horizontal menu */
+#list{
+	padding: 1px 5px 20px 90px;
+	border-bottom: 1px solid #ccc;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding right: 10px;
+    overflow: hidden;
+}
+
+li{
+	float:left;
+	padding-right: 20px;
+}
+
+li a{ 
+	font-family: arial, sans-serif;
+	font-size: 14;
+	display:block;
+	text-align: center;
+	padding-right: 20px;
+	text-decoration: none;
+	color: #757575;
+}
+
+li button{
+	background-color: #f2f2f2;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 5px 5px 5px 20px;
+	margin-right: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px 10px;
+    border: solid 1px #ccc;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+	text-align: left;
+}
+/* end of horizontal menu */
+
+
+#results{
+	margin-left: 130px;
+	font-family: arial, sans-serif;
+	font-size: 12;
+	color: #757575;
+}
+
+
+#left-content{
+	padding-top: 10px;
+	font-family: arial, sans-serif;
+	font-size: 14;
+	color: #757575;
+} 
+
+
+td{
+	padding: 7px;
+	text-align: left;
+	font-size: 12;
+}
+
+#table-results table{
+	text-align: center;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12;
+	padding: 20px 0px 20px 0px;
+}
+
+#footer{
+	background-color: #f2f2f2;
+	padding: 5px 5px 5px 5px;
+	border-top: 1px solid #ccc;
+	position: relative;
+	clear: both;
+}
+
+#footcont{
+	font-family: arial, sans-serif;
+	font-size: 12;
+	color: #777;
+	margin-left: 130px;
+}
+
+a{
+	text-decoration: none;
+	color:#340dab;
+	font-size: 16;
+}
+
+#right-content{
+	margin-left: 100px;
+	margin-top: 100px;
+	padding: 20px 20px 20px 20px;
+	font-family: arial, sans-serif;
+	font-size: 12;
+	max-width: 20%;
+	border: 1px solid #ccc;
+}
