@@ -1,1 +1,1 @@
-# Various exercises from Web Dev Bootcamp
+# Various exercises from Web Dev
