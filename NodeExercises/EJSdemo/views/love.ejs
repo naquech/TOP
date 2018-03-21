@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+
+<!-- https://webdevbootcamp-naquech.c9users.io/fallinlovewith/thingVar -->
+
+<!-- <link rel="stylesheet" href="app.css"> -->
+
+<p>this is the love.ejs file</p>
+
+<h1>You fell in love with: <%= thingVar %> </h1>  
+
+
+<!-- everything that is JavaScript needs to be inside the tags, including{} -->
+
+<% if(thingVar === "rusty"){ %>
+    <p>Good Choice!</p>
+<% } else { %>
+    <p>Bad Choice! You shuld have said Rusty!</p>
+<% } %>
+
+
+<% include partials/footer %>

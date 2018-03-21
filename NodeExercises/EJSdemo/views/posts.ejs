@@ -1,0 +1,19 @@
+<% include partials/header %>
+
+<!-- <link rel="stylesheet" href="app.css"> -->
+
+<h1>This is the posts page</h1>
+
+
+<h1>Regular for loop </h1>
+<% for (var i=0; i<posts.length; i++){ %>
+    <li> <%= posts[i].title %> - <%= posts[i].author %> </li>
+<% } %>
+
+
+<h1>forEach loop</h1>
+<% posts.forEach(function(post){ %>
+    <li> <%= post.title %> - <%= post.author %> </li>
+<% }); %>
+
+<% include partials/footer %>
