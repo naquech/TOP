@@ -1,1 +1,1 @@
-# Various exercises from Web Dev
+# projects from Web Dev Class
