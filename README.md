@@ -1,1 +1,1 @@
-<p> Projects from Web Dev Class </p>
+<p> WebDev Projects: Full stack </p>
