@@ -1,1 +1,1 @@
-<p> WebDev Projects: Full stack </p>
+<p> WebDev Projects</p>
